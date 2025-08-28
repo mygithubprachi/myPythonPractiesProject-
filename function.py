@@ -49,3 +49,10 @@ def cal_sum(n):
     return cal_sum(n-1) + n
 cal_sum(5)
 print(sum)
+
+def student(name,clas,rollno):
+    print("this are student info :",name,clas,rollno)
+    return 6+8
+
+num =student("prachi","7th", 48)
+print(num)
